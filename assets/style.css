@@ -1,10 +1,4 @@
-/** menu **/
-.me-pl-0{
-    padding-left: 0px;
-}
-/** menu **/
-
-/** header **/ 
+/** start header **/ 
 @media (min-width: 768px) {
     body {
       min-height: 650px;
@@ -15,11 +9,21 @@
       min-height: 1000px;
     }
 }
-/** header **/
+/** end header **/
 
-/** footer **/
+/** start menu **/
+.me-pl-0{
+    padding-left: 0px;
+}
+/** end menu **/
+
+/** start content **/
+
+/** end content **/
+
+/** start footer **/
 .me-footer{
     position: relative;
     bottom: 0px;
 }
-/** footer **/
+/** end footer **/
